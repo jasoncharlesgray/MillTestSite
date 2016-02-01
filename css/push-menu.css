@@ -21,11 +21,11 @@
     }
     
     .push-canvas.pushed-left {
-        left: -50%;
+        left: -70%;
     }
     
     .push-canvas.pushed-right {
-        left: 50%;
+        left: 70%;
     }
     
     .navbar-push {
@@ -36,17 +36,17 @@
 
         height: 100%;
         position: fixed;
-        width: 50%;
+        width: 70%;
         top: 0;
 		background-color: #000;
     }
     
     .navbar-push.navbar-push-left {
-        right: -50%;
+        right: -70%;
     }
     
     .navbar-push.navbar-push-right {
-        left: -50%;
+        left: -70%;
     }
     
     .navbar-push.navbar-push-right.in {
