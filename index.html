@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Digital, Creative &amp; PR Marketing Agency - NH &amp; Boston</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/full-slider.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/push-menu.css" rel="stylesheet" />
+
+<!--  FONTS -->
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:900,300,400,500,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="side-collapse-container">
+<!-- Full Page Image Background Carousel Header -->
+<header id="myCarousel" class="carousel slide carousel-fade "> 
+  
+  <!-- Navigation --> 
+  <!-- Static navbar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle visible-xs" data-toggle="push" data-target="#navbar" aria-expanded="false" aria-controls="navbar" id="ChangeToggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
+        <button type="button" class=" navbar-toggle  search">
+        <a href="#"><i class="fa fa-search"></i></a>
+        </button>
+        <div class="logo"><img src="images/desktop-logo.png"/></div>
+      </div>
+      <div id="navbar">
+        <ul class="nav navbar-nav mini-nav">
+          <li class="searchicon"><a href="#"><i class="fa fa-search"></i></a></li>
+          <li><a href="#">CART</a></li>
+          <li><a href="#">MY ACCOUNT</a></li>
+          <li><a href="#">LOG OUT</a></li>
+        </ul>
+        <br>
+        <ul class="nav navbar-nav">
+          <li> <a href="#">Services</a> </li>
+          <li> <a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Story <i class="fa fa-chevron-down"></i> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Carrers</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Industries</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Blog</a> </li>
+          <li> <a href="#">Contact</a> </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+    <!--/.container-fluid --> 
+  </nav>
+  
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for Slides -->
+  <div class="carousel-inner">
+    <div class="item active"> 
+      <!-- Set the first background image using inline CSS below. -->
+      <div class="fill" style="background-image:url('images/slider/mill-test-slide-1.jpg');"></div>
+      <div class="carousel-caption">
+        <h2>Manhattan</h2>
+      </div>
+    </div>
+    <div class="item"> 
+      <!-- Set the second background image using inline CSS below. -->
+      <div class="fill" style="background-image:url('images/slider/mill-test-slide-2.jpg');"></div>
+      <div class="carousel-caption">
+        <h2>Brooklyn</h2>
+      </div>
+    </div>
+    <div class="item"> 
+      <!-- Set the third background image using inline CSS below. -->
+      <div class="fill" style="background-image:url('images/slider/mill-test-slide-3.jpg');"></div>
+      <div class="carousel-caption">
+        <h2>Washington Heights</h2>
+      </div>
+    </div>
+  </div>
+  <div class="learnmore"><a href="#">Learn More</a></div>
+  <div class="thumb_container">
+    <div class="thumb"> <img src="images/manhatten_thumb.jpg"/>
+      <div class="thumb_caption"> Manhatten</div>
+    </div>
+    <div class="thumb"> <img src="images/brooklyn_thumb.jpg"/>
+      <div class="thumb_caption">Brooklyn</div>
+    </div>
+    <div class="thumb"> <img src="images/washingtonheights_thumb.jpg"/>
+      <div class="thumb_caption">Washington Heights</div>
+    </div>
+  </div>
+</header>
+
+<!-- Page Content --><!-- /.container --> 
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Script to Activate the Carousel --> 
+<script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+	
+	
+	
+    </script> 
+<script>    
+$('#ChangeToggle').click(function () {
+    if($('#ChangeToggle span').hasClass('ToggleButton')) {
+        $('#ChangeToggle').html('<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>'); 
+    }
+    else {      
+        $('#ChangeToggle').html('<span class="ToggleButton glyphicon glyphicon-remove"></span>'); 
+    }
+});
+</script> 
+<script src="js/push-menu.js"></script>
+</body>
+</html>
