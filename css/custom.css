@@ -65,6 +65,7 @@
 }
 .mini-nav > li > a {
 	font-size: 12px!important;
+	font-weight: 300!important;
 }
 .search, .search a {
 	margin-right: 50px;
